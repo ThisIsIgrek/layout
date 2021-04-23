@@ -1,0 +1,10 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EFEFEF;
+    color: #333333;
+}
+
+.form-title {
+    font-size: 30px;
+    font-weight: 700;
+}
