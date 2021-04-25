@@ -12,27 +12,46 @@
 </head>
 
 <body>
-    <form>
-        <div class="form-title">Вход в личный кабинет</div>
-        <div class="form-body">
-            <input type="email">
-            <input type="password">
-        </div>
-        <div class="button">
-            <button>Войти</button>
-            <a href="#">Забыли пароль?</a>
-        </div>
-        <div class="social">
-            <p>Войти с помощью:
+    <div class="auth">
+        <form class="form-auth">
+            <h1 class="form-title">
+                Вход в личный кабинет
+            </h1>
+            <div class="form-body">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Пароль">
+            </div>
+
+            <div class="entry">
+                <button>Войти</button>
+                <a href="#">Забыли пароль?</a>
+            </div>
+
+            <div class="social">
+                <p>Войти с помощью: </p>
                 <a href="#">
                     <img src="./img/google.png" alt="google">
                 </a>
                 <a href="#">
                     <img src="./img/facebook.png" alt="facebook">
                 </a>
-            </p>
-        </div>
-    </form>
+            </div>
+
+            <div class="info">
+                <h2>У вас ещё нет аккаунта?</h2>
+                <p>Благодаря учётной записи вы сможете:</p>
+                <ul>
+                    <li>Получать персональные скидки</li>
+                    <li>Сохранять ваши контактные данные для оформления заказа</li>
+                    <li>Просматривать историю ваших заказов</li>
+                    <li>Участвовать в различных акциях</li>
+                    <li>Отслеживать статусы новых заказов</li>
+                </ul>
+            </div>
+            <button class="button-reg">Регистрация</button>
+
+        </form>
+    </div>
 </body>
 
 </html>
